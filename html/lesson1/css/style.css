@@ -1,0 +1,14 @@
+body {
+    background-color: #fec356;
+    font-family: "Montserrat", sans-serif;
+
+}
+.img{
+    width: 250px;
+}
+
+.famMember{
+    max-width : 600px;
+    margin: auto;
+    padding-top: 20px;
+}
