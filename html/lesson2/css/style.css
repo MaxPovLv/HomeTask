@@ -1,0 +1,65 @@
+.div1 {
+    height: auto;
+    margin: 20px 0;
+    background-color: #8A2928FF;
+    text-align: center;
+    color: white;
+}
+
+.div2 {
+    background-color: #C0C0C0FF;
+    padding: 10px 30px;
+}
+
+.div3 {
+    background-color: #6395EC;
+    padding: 30px 0;
+}
+
+.div4 {
+    background-color: #6BBA67;
+    height: 200px;
+    width: 200px;
+}
+
+.div5 {
+    background-color: #8886AA;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.A, .B, .C, .D, .E, .F {
+    background-color: #FFAA00;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+.A {
+    box-shadow: 15px 15px;
+}
+
+.B {
+    box-shadow: 15px 15px 5px;
+}
+
+.C {
+    box-shadow: 15px 15px 5px 5px;
+}
+
+.D {
+    box-shadow: 15px 15px 5px 5px grey
+}
+
+.E {
+    border-radius: 5px;
+    box-shadow: 15px 15px 5px;
+}
+
+.F {
+    border-radius: 5px;
+    box-shadow: 15px 15px 5px grey;
+}
