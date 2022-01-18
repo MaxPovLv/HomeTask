@@ -1,0 +1,841 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*Зробив макети гнучкими,окрім хедера.*/
+
+.header {
+    position: fixed;
+    background-color: #0a5faf;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+.header a {
+    display: inline-block;
+    background: #2196f3;
+    color: #fff;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1;
+}
+
+/*first task*/
+
+.screen {
+    background-color: #a3bab0;
+    min-height: 720px;
+    max-height: available;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #0c5eaa;
+}
+
+.wrap1 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer1, .header1, .menu1, .post1 {
+    text-align: center;
+    margin: 5px;
+}
+
+.header1 {
+    height: 16%;
+    background-color: antiquewhite;
+}
+
+.footer1 {
+    height: 16%;
+    background-color: #f4f483;
+}
+
+.content {
+    display: flex;
+    height: 67%;
+    justify-content: space-between
+}
+
+.menu1 {
+    width: 33%;
+    background-color: #a77bce;
+}
+
+.postContainer1 {
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post1 {
+    height: 50%;
+    background-color: aliceblue;
+}
+
+/*second task*/
+
+.wrap2 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.widgets {
+    height: 25%;
+    background-color: #2269bb;
+}
+
+.widgetsContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+}
+
+.insideWidgets {
+    background-color: #16457a;
+    width: 32%;
+    margin: 10px 0;
+}
+
+.contact {
+    height: 50%;
+    background-color: #2269bb;
+}
+
+/*third task*/
+
+.wrap3 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: flex-end;
+    border: 3px solid #c1c1c1;
+    color: white;
+    padding: 1%;
+}
+
+.contentA {
+    width: 100%;
+    height: 25%;
+    background-color: #a1a1a1;
+    align-self: self-start;
+}
+
+.contentB {
+    height: 73%;
+    width: 73%;
+    background-color: #a1a1a1;
+}
+
+.contentC {
+    height: 73%;
+    width: 25%;
+    background-color: #a1a1a1;
+}
+
+/*fourth task*/
+
+.wrap4 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.wrap4 > div {
+    width: 100%;
+
+}
+
+.head {
+    background-color: #5b529d;
+    height: 15%;
+}
+
+.nav {
+    background-color: #042d4b;
+    height: 12%;
+}
+
+.mainAsideCont {
+    display: flex;
+    justify-content: space-between;
+    height: 65%;
+    width: 100%;
+}
+
+.main {
+    background-color: #38b4ab;
+    width: 60%;
+}
+
+.aside {
+    background-color: #a65ee6;
+    width: 40%;
+}
+
+.foot {
+    background-color: #3bd0ce;
+    height: 8%;
+}
+
+/*fifth task*/
+
+.wrap5 {
+    min-height: 500px;
+    max-height: fit-content;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+}
+
+.contentContainer {
+    height: 32%;
+    margin: 1.3% 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-grow: initial;
+}
+
+.icon {
+    width: 25%;
+    margin: 10px;
+    align-self: center;
+    color: silver;
+}
+
+.text {
+    width: 74%;
+    padding: 0 10px;
+}
+
+.text > h3 {
+    color: #ffad1f;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.text > p {
+    text-align: justify;
+}
+
+/*sixth task*/
+
+.wrap6, .wrap7 {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contB-F, .contB-E, .contC-E {
+    width: available;
+    display: flex;
+}
+
+.contA, .contB, .contB, .contC, .contD, .contE, .contF {
+    background-color: #cccccc;
+    margin: 5px;
+}
+
+.contA {
+    width: available;
+    height: 25%;
+}
+
+.contB-F {
+    display: flex;
+    height: 75%;
+}
+
+.contB-E {
+    width: 75%;
+    flex-direction: column;
+}
+
+.contC-E, .contB {
+    height: 49%;
+}
+
+.contC, .contD, .contE {
+    width: 33%;
+}
+
+.contF {
+    width: 25%;
+}
+
+/*seventh task*/
+
+.contA2, .contB2, .contC2, .contD2,
+.contE2, .contF2, .contG2, .contH2 {
+    background-color: #cccccc;
+    margin: 5px;
+}
+
+.contA2 {
+    background-color: #cccccc;
+    height: 25%;
+}
+
+.contB-H {
+    height: 75%;
+    display: flex;
+}
+
+.contB2, .contC2, .contD2, .contE2, .contF2, .contG2 {
+    width: 33%;
+}
+
+.contB-G {
+    width: 75%;
+    flex-direction: column;
+}
+
+.contB-D, .contE-G {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contH2 {
+    width: 25%;
+    background-color: #cccccc;
+}
+
+/*eighth task*/
+
+.wrap8 {
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.home8, .about8, .sh-is8, .bbq8, .sum8, .kabobs8 {
+    background-color: #0068c6;
+    margin: 5px;
+}
+
+.home8, .about8 {
+    width: 50%;
+}
+
+.sh-is8, .bbq8, .sum8 {
+    width: 33%;
+}
+
+.homeAbout8 {
+    display: flex;
+    height: 50%;
+}
+
+.sh-isSum8 {
+    display: flex;
+    height: 25%;
+}
+
+.kabobs8 {
+    height: 25%;
+}
+
+/*ninth task*/
+
+.wrap9 {
+    height: 300px;
+    max-height: available;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+.fs9 {
+    height: 10%;
+    font-size: 1.2rem;
+}
+
+.cont9 {
+    display: flex;
+    height: 90%;
+    justify-content: space-between;
+}
+
+.serv9 {
+    width: 25%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px #787ca4;
+}
+
+.fon9, .txt9, .btn9 {
+    margin: 5px;
+
+}
+
+.fon9 {
+    height: 25%;
+    color: #808080;
+}
+
+.txt9 > h3 {
+    margin-top: 0;
+}
+
+.txt9 {
+    height: 45%;
+    font-size: 0.8rem;
+}
+
+.btn9 {
+    margin-top: 10px;
+    height: 30%;
+}
+
+/*tenth task*/
+
+.wrap10 {
+    min-height: 400px;
+    max-height: available;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+.bar10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    margin: 1.5%;
+}
+
+.bubCont10 {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.bub10 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-color: #a3bab0;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cd8900;
+}
+
+.cont10 {
+    height: 80%;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rd10 {
+    margin: 50px 5px 10px;
+    font-size: 1.3rem;
+}
+
+.lm10 {
+    border: 2px solid gray;
+    margin: 5% 15%;
+    padding: 5% 0;
+}
+
+/*eleventh task*/
+
+.wrap11 {
+    height: 550px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+.he-side11 > div, .ma-ex11 > div, .ri-rp11 > div {
+    margin: 5px;
+}
+
+.head11, .foot11 {
+    height: 10%;
+    margin: 5px;
+    background-color: #0973ce;
+}
+
+.macon11 {
+    display: flex;
+    height: 65%;
+}
+
+.he-side11 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.her11, .ext11 {
+    height: 40%;
+    background-color: #67ba63;
+}
+
+.sid11, .mai11 {
+    height: 60%;
+    background-color: #d38b5e;
+}
+
+.ma-ex11 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ri-rp11 {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rel11 {
+    width: 70%;
+    background-color: #38b6b0;
+}
+
+.rp11 {
+    width: 30%;
+    background-color: #9d5bb3;
+}
+
+/*Дивлячись на весь той хаос у написаному,*/
+/*може стати сумно, тому, анекдот:*/
+/*В сказке для программистов поросята спасаются в домике*/
+/*из говна и палок, который они ремонтируют быстрее, чем волк его ломает.*/
+
+/*Тут вже почав оптимізовувати*/
+
+/*twelfth task*/
+.wrap12 {
+    height: 800px;
+    max-height: available;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    margin: 50px 0;
+}
+
+/*thirteenth task*/
+
+.wrap13 {
+    height: 2000px;
+    max-height: available;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.h5ps {
+    height: 5%;
+}
+
+.h10ps {
+    height: 10%;
+}
+
+.h20ps {
+    height: 20%;
+}
+
+.h25ps {
+    height: 25%;
+}
+
+.h30ps {
+    height: 30%;
+}
+
+.h33ps {
+    height: 33%;
+}
+
+.h60ps {
+    height: 60%;
+}
+
+.h80ps {
+    height: 80%;
+}
+
+.h95ps {
+    height: 95%;
+}
+
+.h-a {
+    height: available;
+}
+
+.h20px {
+    height: 20px;
+}
+
+.h80px {
+    height: 80px;
+}
+
+.h100px {
+    height: 100px;
+}
+
+.h300px {
+    height: 300px;
+}
+
+.h150px {
+    height: 150px;
+}
+
+.w20ps {
+    width: 20%;
+}
+
+.w25ps {
+    width: 25%;
+}
+
+.w33ps {
+    width: 32%;
+}
+
+.w67ps {
+    width: 66%;
+}
+
+.w75ps {
+    width: 75%;
+}
+
+.w80ps {
+    width: 80%;
+}
+
+.w80px {
+    width: 80px;
+}
+
+.w20px {
+    width: 20px;
+}
+
+.w140px {
+    width: 140px;
+}
+
+.w160px {
+    width: 160px;
+}
+
+.w320px {
+    width: 320px;
+}
+
+.w-a {
+    width: auto;
+}
+
+.b1px-s-gold {
+    border: 1px solid gold;
+}
+
+.ta-l {
+    text-align: left;
+}
+
+.fl-dir-c {
+    flex-direction: column;
+}
+
+.dis-fl {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.fw-wr {
+    flex-wrap: wrap;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.m5px {
+    margin: 5px;
+}
+
+.m-l5px {
+    margin-left: 5px;
+}
+
+.m-r5px {
+    margin-right: 5px;
+}
+
+.m-hor5px {
+    margin: 0 5px;
+}
+
+.m-hor20px {
+    margin: 0 20px;
+}
+
+.m-ver5px {
+    margin: 5px 0;
+}
+
+.m-btm5px {
+    margin-bottom: 5px;
+}
+
+.m1ps {
+    margin: 1%;
+}
+
+.m-l1ps {
+    margin-left: 1%;
+}
+
+.m-l3ps {
+    margin-left: 3%;
+}
+
+.m-r1ps {
+    margin-right: 1%;
+}
+
+.m-hor1ps {
+    margin: 0 1%;
+}
+
+.m-hor3ps {
+    margin: 0 3%;
+}
+
+.m-ver1ps {
+    margin: 1% 0;
+}
+
+.p-vert5px {
+    padding: 5px 0;
+}
+
+.p-vert10px {
+    padding: 10px 0;
+}
+
+.p-l1ps {
+    padding-left: 1%;
+}
+
+.bgc-li-blue {
+    background-color: lightblue;
+}
+
+.fs07rem {
+    font-size: 0.7rem;
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+.bgc-silver {
+    background-color: silver;
+}
+
+.bgc-dg {
+    background-color: darkgray;
+}
+
+.br10px {
+    border-radius: 10px;
+}
+
+.br50ps {
+    border-radius: 50%;
+}
+
