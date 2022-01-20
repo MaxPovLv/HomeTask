@@ -1,0 +1,697 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*Зробив макети гнучкими,окрім хедера.*/
+
+.header {
+    position: fixed;
+    background-color: #0a5faf;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+.header a {
+    display: inline-block;
+    background: #2196f3;
+    color: #fff;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1;
+}
+
+/*first task*/
+
+.screen {
+    background-color: #a3bab0;
+    min-height: 720px;
+    max-height: available;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #0c5eaa;
+}
+
+.wrap1 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*second task*/
+
+.wrap2 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+/*third task*/
+
+.wrap3 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 3px solid #c1c1c1;
+    color: white;
+    padding: 1%;
+}
+
+/*fourth task*/
+
+.wrap4 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+/*fifth task*/
+
+.wrap5 {
+    min-height: 500px;
+    max-height: fit-content;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/*sixth task*/
+/*seventh task*/
+.wrap6, .wrap7 {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*eighth task*/
+
+.wrap8 {
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+/*ninth task*/
+
+.wrap9 {
+    height: 300px;
+    max-height: available;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+/*tenth task*/
+
+.wrap10 {
+    min-height: 400px;
+    max-height: available;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+/*eleventh task*/
+
+.wrap11 {
+    height: 550px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+/*twelfth task*/
+
+.wrap12 {
+    height: 800px;
+    max-height: available;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    margin: 50px 0;
+}
+
+/*thirteenth task*/
+
+.wrap13 {
+    height: 2000px;
+    max-height: available;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+}
+
+/*fourteen task*/
+
+.wrap14 {
+    height: 2000px;
+    max-height: available;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px 0;
+}
+
+/*fitteen task*/
+
+.wrap15 {
+    height: 2000px;
+    max-height: available;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px 0;
+}
+
+
+.h5ps {
+    height: 5%;
+}
+
+.h10ps {
+    height: 10%;
+}
+
+.h15ps {
+    height: 15%;
+}
+
+.h20ps {
+    height: 20%;
+}
+
+.h25ps {
+    height: 25%;
+}
+
+.h30ps {
+    height: 30%;
+}
+
+.h33ps {
+    height: 33%;
+}
+
+.h40ps {
+    height: 40%;
+}
+
+.h50ps {
+    height: 50%;
+}
+
+.h60ps {
+    height: 60%;
+}
+
+.h67ps {
+    height: 67%;
+}
+
+.h70ps {
+    height: 70%;
+}
+
+.h75ps {
+    height: 75%;
+}
+
+.h80ps {
+    height: 80%;
+}
+
+.h90ps {
+    height: 90%;
+}
+
+.h95ps {
+    height: 95%;
+}
+
+.h100ps {
+    height: 100%;
+}
+
+.h-a {
+    height: available;
+}
+
+.h20 {
+    height: 20px;
+}
+
+.h40 {
+    height: 40px;
+}
+
+.h80 {
+    height: 80px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h150 {
+    height: 150px;
+}
+
+.h180 {
+    height: 180px;
+}
+
+.h250 {
+    height: 250px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.w20ps {
+    width: 20%;
+}
+
+.w25ps {
+    width: 25%;
+}
+
+.w30ps {
+    width: 30%;
+}
+
+.w33ps {
+    width: 33%;
+}
+
+.w40ps {
+    width: 40%;
+}
+
+.w50ps {
+    width: 50%;
+}
+
+.w60ps {
+    width: 60%;
+}
+
+.w67ps {
+    width: 67%;
+}
+
+.w75ps {
+    width: 75%;
+}
+
+.w80ps {
+    width: 80%;
+}
+
+.w90ps {
+    width: 90%;
+}
+
+.w95ps {
+    width: 95%;
+}
+
+.w100ps {
+    width: 100%;
+}
+
+.w20 {
+    width: 20px;
+}
+
+.w40 {
+    width: 40px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w140 {
+    width: 140px;
+}
+
+.w160 {
+    width: 160px;
+}
+
+.w180 {
+    width: 180px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.w320 {
+    width: 320px;
+}
+
+.w-a {
+    width: auto;
+}
+
+.b1px-s-gold {
+    border: 1px solid gold;
+}
+
+.ta-l {
+    text-align: left;
+}
+
+.ta-j{
+    text-align: justify;
+}
+
+.fl-dir-c {
+    flex-direction: column;
+}
+
+.dis-fl {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
+.jc-fs {
+    justify-content: flex-start;
+}
+
+.fw-wr {
+    flex-wrap: wrap;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.ai-fe {
+    align-items: flex-end;
+}
+
+.ai-fs {
+    align-items: flex-start;
+}
+
+.ai-e {
+    align-items: end;
+}
+
+.as-c{
+    align-self: center;
+}
+
+.cg10 {
+    column-gap: 10px;
+}
+
+.cg20 {
+    column-gap: 20px;
+}
+
+.rg10 {
+    row-gap: 10px;
+}
+
+.rg20 {
+    row-gap: 20px;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.btm50ps {
+    bottom: 50%;
+}
+
+.top10 {
+    top: 10px;
+}
+
+.zi1 {
+    z-index: 1;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.m-l5 {
+    margin-left: 5px;
+}
+
+.m-r5 {
+    margin-right: 5px;
+}
+
+.m-hor5 {
+    margin: 0 5px;
+}
+
+.m-hor20 {
+    margin: 0 20px;
+}
+
+.m-ver5 {
+    margin: 5px 0;
+}
+
+.m-btm5px {
+    margin-bottom: 5px;
+}
+
+.m1ps {
+    margin: 1%;
+}
+
+.m-l1ps {
+    margin-left: 1%;
+}
+
+.m-l3ps {
+    margin-left: 3%;
+}
+
+.m-r1ps {
+    margin-right: 1%;
+}
+
+.m-hor1ps {
+    margin: 0 1%;
+}
+
+.m-hor3ps {
+    margin: 0 3%;
+}
+
+.m-ver1ps {
+    margin: 1% 0;
+}
+
+.p-vert5px {
+    padding: 5px 0;
+}
+
+.p-vert10px {
+    padding: 10px 0;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.fs07em {
+    font-size: 0.7em;
+}
+
+.bs-cb {
+    box-sizing: content-box;
+}
+
+.bs-bb {
+    box-sizing: border-box;
+}
+
+.fs08em {
+    font-size: 0.8em;
+}
+
+.col-sil {
+    color: silver;
+}
+
+.col-cya {
+    color: #37c7ec;
+}
+
+.col-viol {
+    color: #6964e2;
+}
+.col-or{
+    color: #ffad1f;
+}
+.bgc-li-blue {
+    background-color: lightblue;
+}
+
+.bgc-wh {
+    background-color: white;
+}
+
+.bgc-sil {
+    background-color: silver;
+}
+
+.bgc-ccc {
+    background-color: #ced8e1;
+}
+
+.bgc-dg {
+    background-color: darkgray;
+}
+
+.bgc-al-bl {
+    background-color: aliceblue;
+}
+
+.bgc-bg {
+    background-color: #a3bab0;
+}
+
+.bgc-cor-bl {
+    background-color: #37c7ec;
+}
+
+.bgc-dar-bl {
+    background-color: darkblue;
+}
+
+.bgc-viol {
+    background-color: #6964e2;
+}
+
+.bgc-mnb {
+    background-color: #102b3e;
+}
+
+
+.bgc-ant-wh {
+    background-color: antiquewhite;
+}
+
+.bgc-li-cor {
+    background-color: lightcoral;
+}
+
+.bgc-bl-vi {
+    background-color: blueviolet;
+}
+
+.br10 {
+    border-radius: 10px;
+}
+
+.br20 {
+    border-radius: 20px;
+}
+
+.br50ps {
+    border-radius: 50%;
+}
+
+.shad {
+    box-shadow: 1px 1px 4px #787ca4;
+}
+
+.border1 {
+    border: 2px solid #37c7ec;
+}
+
+.border2 {
+    border: 2px solid grey;
+}
