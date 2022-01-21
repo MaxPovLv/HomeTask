@@ -1,16 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #a9b8a9;
 }
 
-.wrap1 {
-    background-color: black;
-    height: 1080px;
-
-
+.task1{
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .text1 {
-    padding: 330px 600px;
+    margin: 100px auto;
     width: 250px;
 }
 
@@ -34,6 +34,12 @@ body {
 }
 .yn4{
  color: #ff3f3f;
+}
+
+.task2{
+    height: 600px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .shad{

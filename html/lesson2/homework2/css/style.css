@@ -1,3 +1,7 @@
+body{
+    background-color: #c0c0d5;
+}
+
 .div1 {
     height: auto;
     margin: 20px 0;
@@ -29,6 +33,10 @@
     border-radius: 20px;
 }
 
+.wrap{
+    width: 150px;
+    margin: 0 auto;
+}
 .A, .B, .C, .D, .E, .F {
     background-color: #FFAA00;
     height: 150px;
