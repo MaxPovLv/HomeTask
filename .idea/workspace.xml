@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c81abe9b-8df0-4779-ace3-c542119a1b3f" name="Changes" comment="Ready">
+      <change afterPath="$PROJECT_DIR$/js/lesson1/classwork/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson1/classwork/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson1/errors1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson1/homework/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson1/homework/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="23WXOBV0MnsEDZbg1VFn9NFF54w" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.splitter.proportion" value="0.18779714" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\HomeTask\html\classwork1\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Git\StudyTask\js\lesson1" />
+      <recent name="C:\Git\StudyTask\html\ProjectHTML\img\header" />
+      <recent name="C:\Git\StudyTask\html\ProjectHTML\img\first-frame" />
+      <recent name="C:\Git\HomeTask\html\classwork2\css" />
+      <recent name="C:\Git\HomeTask\html\classwork2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HomeTask/html/classwork2/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Max\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c81abe9b-8df0-4779-ace3-c542119a1b3f" name="Changes" comment="" />
+      <created>1641850783771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641850783771</updated>
+      <workItem from="1641850787645" duration="288000" />
+      <workItem from="1641851089706" duration="160000" />
+      <workItem from="1641851275460" duration="587000" />
+      <workItem from="1641851876489" duration="92000" />
+      <workItem from="1641851980070" duration="11747000" />
+      <workItem from="1641923919102" duration="4027000" />
+      <workItem from="1642020074016" duration="6450000" />
+      <workItem from="1642097365366" duration="4827000" />
+      <workItem from="1642263158140" duration="15064000" />
+      <workItem from="1642288277520" duration="8447000" />
+      <workItem from="1642359100837" duration="1581000" />
+      <workItem from="1642362584816" duration="7915000" />
+      <workItem from="1642376108906" duration="11554000" />
+      <workItem from="1642430973888" duration="29344000" />
+      <workItem from="1642523944432" duration="460000" />
+      <workItem from="1642578805561" duration="23159000" />
+      <workItem from="1642673061396" duration="12238000" />
+      <workItem from="1642701204366" duration="6218000" />
+      <workItem from="1642720273640" duration="2363000" />
+      <workItem from="1642777836541" duration="9970000" />
+      <workItem from="1642797662323" duration="7500000" />
+      <workItem from="1642807503196" duration="1166000" />
+      <workItem from="1643059766556" duration="640000" />
+      <workItem from="1643063714272" duration="2022000" />
+      <workItem from="1643133987838" duration="13378000" />
+      <workItem from="1643397254039" duration="20142000" />
+      <workItem from="1643483207180" duration="27093000" />
+      <workItem from="1643575008361" duration="406000" />
+      <workItem from="1643731173065" duration="15787000" />
+    </task>
+    <task id="LOCAL-00001" summary="Ready">
+      <created>1641864216565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641864216566</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ready">
+      <created>1642029574839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642029574839</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ready">
+      <created>1642101788321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642101788321</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ready">
+      <created>1642101972646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642101972646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
