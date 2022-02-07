@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1%;
+    row-gap: 1%;
+}
+
+.wrap {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*width: 100%;*/
+    display: flex;
+    height: auto;
+    min-width: 15%;
+    max-width: 19%;
+    margin: 10px 0;
+
+}
+
+.mainCont {
+background-color: cornflowerblue;
+}
