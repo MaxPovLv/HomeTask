@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81abe9b-8df0-4779-ace3-c542119a1b3f" name="Changes" comment="Ready">
-      <change afterPath="$PROJECT_DIR$/js/lesson2/additinal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson2/additinal/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson2/classwork/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson2/classwork/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson2/homework/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson2/homework/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson4/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson4/additional/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson4/classwork/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson4/classwork/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson4/homework/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson4/homework/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,8 +70,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js/lesson2/additinal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="settings.editor.splitter.proportion" value="0.18779714" />
   </component>
   <component name="ReaderModeSettings">
@@ -144,6 +150,18 @@
       <workItem from="1643887871867" duration="6190000" />
       <workItem from="1643904789917" duration="5036000" />
       <workItem from="1643970014180" duration="6091000" />
+      <workItem from="1644077711629" duration="7739000" />
+      <workItem from="1644090466146" duration="27000" />
+      <workItem from="1644090506594" duration="765000" />
+      <workItem from="1644091287187" duration="168000" />
+      <workItem from="1644091466506" duration="1243000" />
+      <workItem from="1644092722211" duration="2136000" />
+      <workItem from="1644149613003" duration="9791000" />
+      <workItem from="1644218551444" duration="6347000" />
+      <workItem from="1644252018982" duration="5069000" />
+      <workItem from="1644334107292" duration="6498000" />
+      <workItem from="1644343369387" duration="4913000" />
+      <workItem from="1644495059773" duration="6964000" />
     </task>
     <task id="LOCAL-00001" summary="Ready">
       <created>1641864216565</created>
