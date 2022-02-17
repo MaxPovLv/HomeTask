@@ -54,8 +54,7 @@ console.log(arrObjPlaceChanger1(numArray, 1));
 let numArray1 = [0, 3, 6, 0, 9, 12, 0, 15, 18]
 
 let zeroMoveToEnd = (arr) => {
-
-    for (var i = 0, j = 0; i < arr.length; i++) {
+    for (let i = 0, j = 0; i < arr.length; i++) {
         if (arr[i] !== 0) {
             [arr[j], arr[i]] = [arr[i], arr[j]];
             j++;
