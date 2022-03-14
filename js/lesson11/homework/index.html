@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework11</title>
+</head>
+<body>
+
+<form name="firstF">
+    <input type="text" name="username">
+    <input type="number" name="age">
+    <button>Save</button>
+</form>
+
+<form name="carsForm">
+    <input type="text" name="model">
+    <input type="text" name="type">
+    <input type="number" name="volume">
+    <button>save car</button>
+</form>
+
+<script>
+
+    // -створити форму з інпутами для name та age.
+    //  При відправці форми записати об'єкт в localstorage
+
+    let firstF = document.forms.firstF
+    firstF.onsubmit = function (e) {
+        e.preventDefault()
+        localStorage.setItem('nameInput', JSON.stringify({
+            nameInput: e.target.username.value,
+            ageInput: e.target.age.value
+        }))
+    }
+
+
+    // -створити форму з інпутами для model,type та volume автівки.
+    // при відпарвці форми об'єкти зберігаються в масиві в локальному сховищі.
+
+    let carsArray = JSON.parse(localStorage.getItem('cars')) || []
+
+    document.forms.carsForm.onsubmit = function (e) {
+        e.preventDefault()
+        let model = e.target.model.value
+        let type = e.target.type.value
+        let volume = e.target.volume.value
+        let car = {model, type, volume}
+        carsArray.push(car)
+        localStorage.setItem('cars', JSON.stringify(carsArray))}
+
+</script>
+</body>
+</html>
