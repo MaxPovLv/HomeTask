@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>classwork10</title>
+</head>
+<body>
+
+
+<script>
+
+    // - створити 2 форми  по 2 інпути в кожній. ствоирити кнопку при кліку
+    // на яку считується та виводиться на консоль інформація з цих 2х форм.
+    // Кнопка повинна лежати за межами форм (Щоб уникнути  перезавантаження сторінки)
+    // Доступ до інпутів через Forms API. Отже дайте формі та інпутам всі
+    // необхідні атрибути.
+
+    let form1 = document.createElement('div')
+    form1.setAttribute('id', 'form1');
+    let form2 = document.createElement('div')
+    form2.setAttribute('id', 'form2');
+
+    let formCreator = (forms) => {
+        document.body.appendChild(forms)
+        let form = document.createElement('form');
+        form.setAttribute('name', `${forms.getAttribute('id')}`);
+        let inputOne = document.createElement('input');
+        inputOne.setAttribute('name', 'inputOne');
+
+        let inputTwo = document.createElement('input');
+        inputTwo.setAttribute('name', 'inputTwo');
+
+        forms.appendChild(form);
+        form.append(inputOne, inputTwo);
+    };
+
+    formCreator(form1)
+    formCreator(form2)
+
+    let btn = document.createElement('button');
+    btn.innerText = 'send';
+    document.body.appendChild(btn);
+
+    btn.addEventListener('click', function () {
+        console.log(document.forms.form1.inputOne.value);
+        console.log(document.forms.form1.inputTwo.value);
+        console.log(document.forms.form2.inputOne.value);
+        console.log(document.forms.form2.inputTwo.value);
+    })
+
+
+    // - Створити 3 инпута та кнопку. Один визначає кількість рядків, другий
+    // - кількість ячеєк, третій вмиіст ячеєк.
+    //   При натисканні кнопки, вся ця інформація зчитується і формується
+    //   табличка, з відповідним вмістом.
+
+    let inputOne = document.createElement('input');
+    let inputTwo = document.createElement('input');
+    let inputThree = document.createElement('input');
+    let button = document.createElement('button');
+    let cont = document.createElement('div');
+    button.innerText = 'Створи таблицю';
+    document.body.append(cont);
+    cont.append(inputOne, inputTwo, inputThree, button);
+
+    button.addEventListener('click', function () {
+        let row = inputOne.value;
+        let cell = inputTwo.value;
+        let enterText = inputThree.value;
+
+        function generationTable(row, cell, inner) {
+            let table = document.createElement('table');
+            let divTable = document.createElement('div');
+
+            table.style.border = '1px solid orange';
+            divTable.appendChild(table);
+            document.body.appendChild(divTable);
+
+            for (let i = 0; i < row; i++) {
+                let row = document.createElement('tr');
+                row.style.border = '1px solid blue';
+                for (let j = 0; j < cell; j++) {
+                    let cell = document.createElement('td');
+                    cell.style.border = '1px solid green';
+                    cell.innerText = `${inner}`;
+                    table.appendChild(row);
+                    row.appendChild(cell);
+                }
+            }
+        }
+
+        generationTable(row, cell, enterText);
+    })
+
+    // Сворити інпут текстового типу.
+    // Якщо людина вводить слово і воно міститься в масиві не цензурних слів
+    // кинути алерт з попередженням.
+    // Перевірку робити при натисканні на кнопку
+
+    let mates = ['какаха', 'дурник', 'трясця'];
+    let input2 = document.createElement('input');
+    let btn4 = document.createElement('button');
+    btn4.innerText = 'Check';
+    let content1 = document.createElement('div')
+    document.body.append(content1)
+    content1.append(input2, btn4);
+
+    btn4.addEventListener('click', function () {
+        let valueInput = input2.value;
+
+        for (let mate of mates) {
+            if (mate === valueInput) {
+                alert('Сам такий');
+                return;
+            }
+        }
+        if (valueInput) {
+            alert('Молодець, ти чемний!');
+        }
+    })
+
+
+    // - Сворити масив не цензцрних слів.
+    //     Сворити інпут текстового типу.
+    //     Потрібно перевіряти чи не містить ціле речення в собі погані слова.
+    //     Кинути алерт з попередженням у випадку якщо містить.
+    //     Перевірку робити при натисканні на кнопку
+
+
+    let cont2 = document.createElement('div');
+    let form3 = document.createElement('form');
+    let input1 = document.createElement('input');
+    cont2.append(form3);
+    form3.append(input1);
+    document.body.appendChild(cont2);
+
+    input1.addEventListener('input', (e) => {
+        if (e.target.value.includes('рускій солдат')) {
+            alert('не забудь покласти сємки в карман')
+        } else if (e.target.value.includes('Слава Україні')) {
+            alert('Героям Слава')
+        }
+    });
+
+</script>
+</body>
+</html>
