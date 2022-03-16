@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81abe9b-8df0-4779-ace3-c542119a1b3f" name="Changes" comment="Ready">
-      <change afterPath="$PROJECT_DIR$/js/lesson7/additional/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson7/additional/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson7/classwork/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson7/classwork/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson7/homework/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson8/homework/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson8/homework/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lesson7/homework/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson7/homework/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson10/homework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson10/homework/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson7/classwork/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson7/classwork/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -70,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/lesson7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/lesson12" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -86,11 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\StudyTask\js\lesson12" />
+      <recent name="C:\Git\StudyTask\js\lesson11" />
+      <recent name="C:\Git\StudyTask\js\lesson10" />
       <recent name="C:\Git\StudyTask\js\lesson7" />
       <recent name="C:\Git\StudyTask\js\lesson6\homework6" />
-      <recent name="C:\Git\StudyTask\js\lesson6\classwork6" />
-      <recent name="C:\Git\StudyTask\js\lesson2\additinal" />
-      <recent name="C:\Git\StudyTask\js\lesson2\classwork" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Git\StudyTask\js\lesson1" />
@@ -174,7 +168,20 @@
       <workItem from="1644938196433" duration="7695000" />
       <workItem from="1645026854599" duration="6145000" />
       <workItem from="1645103466634" duration="16295000" />
-      <workItem from="1645187515034" duration="15579000" />
+      <workItem from="1645187515034" duration="16297000" />
+      <workItem from="1645535445257" duration="3577000" />
+      <workItem from="1645546006791" duration="10739000" />
+      <workItem from="1646419952434" duration="659000" />
+      <workItem from="1646837215187" duration="10592000" />
+      <workItem from="1646938480607" duration="606000" />
+      <workItem from="1647003970811" duration="23566000" />
+      <workItem from="1647097158208" duration="3504000" />
+      <workItem from="1647209846891" duration="601000" />
+      <workItem from="1647267620089" duration="1956000" />
+      <workItem from="1647271146079" duration="335000" />
+      <workItem from="1647271538259" duration="4846000" />
+      <workItem from="1647356651974" duration="3970000" />
+      <workItem from="1647443738263" duration="16427000" />
     </task>
     <task id="LOCAL-00001" summary="Ready">
       <created>1641864216565</created>

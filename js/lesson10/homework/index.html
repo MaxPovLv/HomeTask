@@ -113,18 +113,18 @@
 
             let comment = document.createElement('p');
             comment.innerText = `${arrElement.body}`;
-            let btn = document.createElement('button');
 
+            let btn = document.createElement('button');
+            btn.innerText = 'Hide'
             btn.onclick = () => {
                 if (commCont.style.display === 'none') {
                     commCont.style.display = 'inline'
-                    btn.innerHTML = 'Hide'
+                    btn.innerText = 'Hide'
                 } else {
                     commCont.style.display = 'none'
-                    btn.innerHTML = 'Show'
+                    btn.innerText = 'Show'
                 }
             }
-            btn.innerHTML = 'Hide'
             commCont.append(name, comment)
             comm.append(commCont, btn);
 
