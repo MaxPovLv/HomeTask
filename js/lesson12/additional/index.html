@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>additional10</title>
+</head>
+<body>
+
+<script>
+
+    // 1.
+    // Отримати відповідь з цього ресурсу відповідь, та вивести в документ як в
+    // прикладі на занятті https://jsonplaceholder.typicode.com/users
+    // кожному елементу юзера створити кнопку, при клику на яку в окремий блок
+    // виводяться всі пости поточного юзера.
+    // Кожному елементу post створити кнопку, при клику на яку в окремий блок
+    // виводяться всі коментарі поточного поста
+
+    fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response => {
+            return response.json()
+        })
+        .then(users => {
+            let mainCont = document.createElement('div')
+            document.body.appendChild(mainCont)
+            for (let user of users) {
+                let userCont = document.createElement('div')
+                userCont.innerHTML =
+                    `<h3>User ID: ${user.id}</h3>
+                     <p>name: ${user.name}</p>
+                     <p>username: ${user.username}</p>
+                     <p>email: ${user.email}</p>
+                     <p>address:</p>
+                     <ul><li><p>street: ${user.address.street}</p>
+                         <li><p>suite: ${user.address.suite}</p>
+                         <li><p>city: ${user.address.city}</p>
+                         <li><p>zipcode: ${user.address.zipcode}</p></ul>
+                     <p>geo:</p>
+                     <ul><li><p>lat ${user.address.geo.lat};</p>
+                         <li><p>lng ${user.address.geo.lng};</p></ul>
+                     <p>phone: ${user.phone}</p>
+                     <p>website: ${user.website}</p>
+                     <p>company: </p>
+                     <ul><li><p>name: ${user.company.name}</p>
+                         <li><p>catch phrase: ${user.company.catchPhrase}</p>
+                         <li><p>bs: ${user.company.bs}</p>`
+                mainCont.appendChild(userCont);
+                let buttonP = document.createElement('button');
+                buttonP.innerText = 'Show Posts';
+                userCont.appendChild(buttonP);
+
+                buttonP.onclick = () => {
+                    fetch('https://jsonplaceholder.typicode.com/user/' + user.id + '/posts')
+                        .then(response => {
+                            return response.json()
+                        })
+                        .then(posts => {
+                            let wrap = document.createElement('div')
+                            wrap.classList.add('wrap')
+                            for (let post of posts) {
+                                let postCont = document.createElement('div')
+                                postCont.innerHTML =
+                                    `<h3>Post ID: ${post.id}</h3><p>Title: ${post.title}</p><p>Body: ${post.body}</p>`
+
+                                let button = document.createElement('button');
+                                button.innerText = 'Show Comments';
+                                button.onclick = () => {
+                                    fetch('https://jsonplaceholder.typicode.com/posts/' + post.id + '/comments')
+                                        .then(response => {
+                                            return response.json()
+                                        })
+                                        .then(comments => {
+                                            for (const comment of comments) {
+                                                let divCardComments = document.createElement('div');
+                                                divCardComments.innerHTML = `
+                                    <h3>Comment ID: ${comment.id}</h3>
+                                    <p>Name: ${comment.name}</p>
+                                    <p>Email: ${comment.email}</p>
+                                    <p>Body: ${comment.body}</p>`;
+                                                postCont.appendChild(divCardComments)
+                                                button.disabled = true;
+                                            }
+                                        })
+                                }
+                                postCont.appendChild(button)
+                                wrap.appendChild(postCont);
+                                buttonP.disabled = true;
+                            }
+                            userCont.appendChild(wrap)
+                        })
+                }
+            }
+        })
+
+</script>
+</body>
+</html>
