@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81abe9b-8df0-4779-ace3-c542119a1b3f" name="Changes" comment="Ready">
+      <change afterPath="$PROJECT_DIR$/MySQL/lesson1/lesson1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySQL/lesson2/lesson2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson13/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson13/additional/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lookLikeLesson14/lectureTask/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lesson10/homework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson10/homework/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lesson7/classwork/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson7/classwork/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson12/additional/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson12/additional/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,11 +64,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/lesson12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/lesson13" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -72,7 +77,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.18779714" />
   </component>
   <component name="ReaderModeSettings">
@@ -80,11 +85,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\StudyTask\js\lesson13" />
       <recent name="C:\Git\StudyTask\js\lesson12" />
       <recent name="C:\Git\StudyTask\js\lesson11" />
       <recent name="C:\Git\StudyTask\js\lesson10" />
       <recent name="C:\Git\StudyTask\js\lesson7" />
-      <recent name="C:\Git\StudyTask\js\lesson6\homework6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Git\StudyTask\js\lesson1" />
@@ -181,7 +186,15 @@
       <workItem from="1647271146079" duration="335000" />
       <workItem from="1647271538259" duration="4846000" />
       <workItem from="1647356651974" duration="3970000" />
-      <workItem from="1647443738263" duration="16427000" />
+      <workItem from="1647443738263" duration="16770000" />
+      <workItem from="1647780606752" duration="4891000" />
+      <workItem from="1647866438787" duration="627000" />
+      <workItem from="1647873497410" duration="7414000" />
+      <workItem from="1648061586469" duration="234000" />
+      <workItem from="1648128732359" duration="16535000" />
+      <workItem from="1648313902865" duration="13095000" />
+      <workItem from="1648394042955" duration="1914000" />
+      <workItem from="1648396108423" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Ready">
       <created>1641864216565</created>
