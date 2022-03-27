@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ItemsList</title>
+</head>
+<body>
+<script>
+
+    let buttonClear = document.createElement('button');
+    buttonClear.innerText = 'Clear List'
+    buttonClear.onclick = function () {
+        document.body.remove();
+        localStorage.clear()
+    };
+    document.body.append(buttonClear);
+
+    let itemList = JSON.parse(localStorage.getItem('itemList'));
+    for (let product of itemList) {
+        let userDiv = document.createElement('div');
+        userDiv.style.margin = '10px'
+        userDiv.innerText = product.name + ' , ' + product.quantity + ' , ' + product.price + '  ';
+        let button = document.createElement('button');
+        button.innerText = 'delete'
+        button.onclick = function () {
+            document.body.removeChild(userDiv);
+        };
+        userDiv.append(button);
+        document.body.append(userDiv);
+    }
+
+</script>
+</body>
+</html>

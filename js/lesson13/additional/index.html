@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>additional13</title>
+    <style>
+        #products {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product{
+            width: 50%;
+            margin: 15px 0 ;
+        }
+        .img{
+            height: 400px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="products"></div>
+<button><a href="./list.html">List of items</a></button>
+
+
+<script>
+
+    let products = [
+        {name: 'mem1', quantity: '1', price: 'for free', img: 'https://miro.medium.com/max/1400/0*h8I3MyieMHgR8BYN'},
+        {name: 'mem2', quantity: '1', price: 'for free', img: 'https://miro.medium.com/max/976/0*-08EUzwn1On4yKx1.png'},
+        {name: 'mem3', quantity: '1', price: 'for free', img: 'https://miro.medium.com/max/1280/0*iAg4oWEIAWrMPLhN'},
+        {name: 'mem4', quantity: '1', price: 'for free', img: 'https://miro.medium.com/max/1280/0*gUmnBbPXyTNTL8hI'},
+        {name: 'mem5', quantity: '1', price: 'for free', img:
+                'https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/3.5-3.jpeg?lossy=1&strip=1&webp=1'},
+        {name: 'mem6', quantity: '1', price: 'for free', img:
+                'https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/18.jpeg?lossy=1&strip=1&webp=1'},
+        {name: 'mem7', quantity: '1', price: 'for free', img:
+                'https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/Hello-World-Programming.jpeg?lossy=1&strip=1&webp=1'},
+        {name: 'mem8', quantity: '1', price: 'for free', img:
+                'https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/tumblr_pqiv8nJLgq1xwpovyo1_1280.jpeg?lossy=1&strip=1&webp=1'}
+    ]
+
+
+    let usersBox = document.getElementById('products');
+    let itemList = JSON.parse(localStorage.getItem('itemList')) || [];
+    for (let product of products) {
+        let productDiv = document.createElement('div');
+        productDiv.className = 'product';
+        productDiv.innerText = product.name + ' , ' + product.quantity + ' , ' + product.price + '  ';
+        productDiv.innerHTML =
+            `<img class="img" src="${product.img}" alt="${product.name}">
+             <p>name: ${product.name}</p>
+             <p>quantity: ${product.quantity}</p>
+             <p>price: ${product.price}</p>`;
+        let button = document.createElement('button');
+        button.innerText = 'add to list'
+        button.onclick = function () {
+            itemList.push(product);
+            localStorage.setItem('itemList', JSON.stringify(itemList));
+        };
+        productDiv.append(button);
+        usersBox.append(productDiv);
+    }
+
+</script>
+</body>
+</html>
