@@ -5,63 +5,70 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>additional13</title>
+    <title>Document</title>
     <style>
-        #products {
+        body {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
-        .img{
-            height: 400px;
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 150px;
+            height: 200px;
         }
-
+        #list{
+            width: auto;
+            text-decoration: none;
+            background: orange;
+            color: white;
+            padding: 10px;
+            border-radius:3px;
+        }
     </style>
 </head>
 <body>
 
-<div id="products"></div>
-<button><a href="./list.html">List of items</a></button>
-
-
+<form class="form">
+    <label >назва товару:
+        <input type="text" name="productName" >
+    </label>
+    <label > кількість товару:
+        <input type="text" name="quantity" >
+    </label>
+    <label >ціна товару:
+        <input type="text" name="price" >
+    </label>
+    <label > картинка товару:
+        <input type="text" name="image" >
+    </label>
+    <button  id="submit">submit</button>
+</form>
+<a href='list.html' id="list"> На сторінку товарів</a>
 <script>
-
-    let products = [
-        {name: 'mem1', quantity: '1', price: 'for free', img: 'https://miro.medium.com/max/1400/0*h8I3MyieMHgR8BYN'},
-        {name: 'mem2', quantity: '1', price: 'for free', img: 'https://miro.medium.com/max/976/0*-08EUzwn1On4yKx1.png'},
-        {name: 'mem3', quantity: '1', price: 'for free', img: 'https://miro.medium.com/max/1280/0*iAg4oWEIAWrMPLhN'},
-        {name: 'mem4', quantity: '1', price: 'for free', img: 'https://miro.medium.com/max/1280/0*gUmnBbPXyTNTL8hI'},
-        {name: 'mem5', quantity: '1', price: 'for free', img:
-                'https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/3.5-3.jpeg?lossy=1&strip=1&webp=1'},
-        {name: 'mem6', quantity: '1', price: 'for free', img:
-                'https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/18.jpeg?lossy=1&strip=1&webp=1'},
-        {name: 'mem7', quantity: '1', price: 'for free', img:
-                'https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/Hello-World-Programming.jpeg?lossy=1&strip=1&webp=1'},
-        {name: 'mem8', quantity: '1', price: 'for free', img:
-                'https://833250.smushcdn.com/1694534/wp-content/uploads/2021/06/tumblr_pqiv8nJLgq1xwpovyo1_1280.jpeg?lossy=1&strip=1&webp=1'}
-    ]
-
-
-    let usersBox = document.getElementById('products');
-    let itemList = JSON.parse(localStorage.getItem('itemList')) || [];
-    for (let product of products) {
-        let productDiv = document.createElement('div');
-        productDiv.className = 'product';
-        productDiv.innerText = product.name + ' , ' + product.quantity + ' , ' + product.price + '  ';
-        productDiv.innerHTML =
-            `<img class="img" src="${product.img}" alt="${product.name}">
-             <p>name: ${product.name}</p>
-             <p>quantity: ${product.quantity}</p>
-             <p>price: ${product.price}</p>`;
-        let button = document.createElement('button');
-        button.innerText = 'add to list'
-        button.onclick = function () {
-            itemList.push(product);
-            localStorage.setItem('itemList', JSON.stringify(itemList));
-        };
-        productDiv.append(button);
-        usersBox.append(productDiv);
+    let productName = document.forms[0].productName;
+    let quantity = document.forms[0].quantity;
+    let price = document.forms[0].price;
+    let image = document.forms[0].image;
+    let submit = document.getElementById('submit');
+    let key = 'product'
+    submit.onclick = function (ev) {
+        ev.preventDefault()
+        let arr = JSON.parse(localStorage.getItem(key)) ||[];
+        function Obj(productName,quantity,price,image) {
+            this.productName = productName
+            this.quantity = quantity
+            this.price = price
+            this.image = image
+        }
+        let product = new Obj(productName.value,quantity.value,price.value,image.value);
+        arr.push(product);
+        localStorage.setItem(key, JSON.stringify(arr));
     }
-
+    let list = document.getElementById('list');
 </script>
 </body>
 </html>
